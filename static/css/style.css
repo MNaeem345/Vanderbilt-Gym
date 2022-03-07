@@ -1,7 +1,12 @@
+#hero{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(19, 12, 26, 0.73)), url(/static/images/mark-adriane-FH6JcaCrYJ0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
 
-
-.bg-light{
-    background-color: transparent !important;
+.bg-dark{
+    background-color: black;
 }
 
 .button{
@@ -44,7 +49,12 @@
   }
 
 
-.welcome{
+#welcome{
     padding-top: 400px;
-    padding-left: 700px;
+    padding-bottom: 200px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #f8fbff;
+    border-color: #f8f9fa;
 }
